@@ -1,0 +1,329 @@
+html, body {
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:30px;
+  margin-top:20px;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 150%;  
+
+}
+
+p { 
+  line-height: 150%; 
+}
+
+select {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: inherit;
+}
+
+label {
+  float: left;
+  text-align: right;
+  padding-right: 10px;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top:40px;
+  margin-bottom:-6px;
+  font-weight: normal;
+  color: #525252;
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #525252;
+  border:none;
+  text-align: center;
+}
+
+h3 {
+  color: #525252;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: -5px;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #525252;
+}
+
+b {    
+    font-weight: bold;
+    color: purple ;
+} 
+
+p.question {  
+  width: 90%; 
+  margin:0 auto;
+  text-align: center;
+  font-size: 15px;
+}
+
+#comboReactiveText {  
+  margin:0 auto;
+  text-align: justify;
+}
+     
+#CritNormModule {
+  width: 70%; 
+  margin:0 auto;
+}
+
+.question {
+  color: #4D4D4D;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.answer {
+  color: #838383;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+.keyTerm {
+  color: #4D4D4D;
+  font-weight: 700;
+  
+}
+
+.barNorm:hover,
+.barRaw:hover,
+.barCombo:hover,
+.barCrit:hover {
+    fill: brown;
+}
+
+.barNorm rect {
+  fill: steelblue;
+  shape-rendering: crispEdges;
+}
+
+.barRaw rect,
+.barCrit rect,
+.barCombo rect {
+  shape-rendering: crispEdges;
+}
+
+.barRaw text,
+.barNorm text,
+.barCrit text,
+.barCombo text {
+  fill: #fff;
+  font-size: 10px; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.axis path, 
+.axis line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+path {
+stroke: steelblue;
+stroke-width: 2;
+fill: none;
+}
+
+.xaxisraw.axislabel,
+.yaxisraw.axislabel,
+.xaxisnorm.axislabel,
+.yaxisnorm.axislabel,
+.xaxiscrit.axislabel,
+.yaxiscrit.axislabel,
+.xaxiscombo.axislabel,
+.yaxiscombo.axislabel {
+    font-size: 12px; 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+.axis text {
+    font-size: 11px; 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+
+
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.slider-width
+{
+    width: 300px;
+}
+
+.input {
+    width: 50px;
+}
+
+#decisionTbl {
+    width: 100%;
+    border-collapse: collapse;  
+}
+
+#decisionTbl th{
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#comboTableDiv {
+    font-size: 14px;  
+    line-height: 125%; 
+}
+
+
+
+/* #### bootstrap form style sheet #### */
+
+.bootstrap-frm {
+    margin-left:auto;
+    margin-right:auto;
+
+    width: 100%;
+    background: #FFF;
+    padding: 10px 10px 5px 10px;
+    font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #DDD;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.bootstrap-frm h1 {
+    font: 25px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: #666;
+}
+.bootstrap-frm h1>span {
+    display: block;
+    font-size: 11px;
+}
+.bootstrap-frm label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.bootstrap-frm label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.bootstrap-frm input[type="text"], 
+.bootstrap-frm input[type="email"], 
+.bootstrap-frm textarea, 
+.bootstrap-frm select{
+    border: 1px solid #CCC;
+    color: #666;
+    height: 20px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;    
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.bootstrap-frm select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height:15px;
+}
+.bootstrap-frm textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+.bootstrap-frm 
+.button {
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 5px 20px 5px 20px;
+    color: #333;
+    border-radius: 4px;
+}
+.bootstrap-frm 
+.button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+    border-color: #ADADAD;
+}
+
