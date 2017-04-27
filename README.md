@@ -1,4 +1,4 @@
-# Luciana Concado Explorable Explanation
+# Luciana Cançado Explorable Explanation
 ## Understanding Norm- and Criterion-referenced Interpretation of Assessment Results
 
 This interactive module was designed to help clarify some of the concepts related to educational assessment. This module is part of a larger effort sponsored by the [Center for Assessment](http://www.nciea.org/) to use high-fidelity and interactive Web technologies to help improve assessment literacy. 
